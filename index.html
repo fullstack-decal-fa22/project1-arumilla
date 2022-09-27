@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="author" content="Jennifer Cao">
+    <title>Jennifer Cao | Personal Website</title>
+    <author>    
+</head>
+<body>
+    <div class="splash-page">
+        <div class="navbar">
+            <div class="logo"><h4>Placeholder Logo</h4></div>
+            <div class="nav">
+                <div class="nav-button button-color"><h6>About</h6></div>
+                <div class="nav-button button-color"><h6>Portfolio</h6></div>
+                <div class="nav-button button-color"><h6>Contact</h6></div>
+                <div class="nav-button button-color">
+                    <a href="https://github.com/arumilla" target=_blnak>
+                        <h6>Github</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="headline flex-row-centered">
+            <div class="headline-background">
+                <div class="headline-text">
+                    <h1>Hello I'm Jennifer</h1>
+                </div>
+                <div class="headline-subtitle">
+                    <h3>Placeholder Text</h3>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about-area flex-row">
+                <div class="about-text-area">
+                    <h2>About Me</h2>
+                    <p class="text">
+                      I am currently a sophomore studying Computer Science at University of California: Berkeley.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <div class="portfolio">
+        <div class="proj-sep"><h1>Projects</h1></div>
+        <div class="proj">
+            <div class="box proj-name">Gitlet</div>
+            <div class="box proj-image"><img src="./gitlet-img.png" alt="gitlet placholder image" width="330" height="375"></div>
+            <div class="proj-des">
+                <h3>Overview</h3>
+                <p>This project was inspired by the version control system known as "Git" written in Java.</p>
+                <h4>Personal Contribution</h4>
+                <p>I worked on this project by myself. Some of the things I did include: </p>
+                <ul>
+                    <li> Utilized datastructures to efficiently record and retrieve file versions </li>
+                    <li> Implemented graphs and graph search algorithms to manipulate files </li>
+                    <li> Utilized hash functions to securely organize and store files </li>
+                </ul>
+
+            </div>
+            <div class="proj-footer"><br><br></div>
+        </div>
+        <div class="proj">
+            <div class="box proj-name">name</div>
+            <div class="box proj-image">image</div>
+            <div class=" proj-des">description</div>
+            <div class="proj-footer"></div>
+        </div>
+        <div class="proj">
+            <div class="box proj-name">name</div>
+            <div class="box proj-image">image</div>
+            <div class=" proj-des">description</div>
+            <div class="proj-footer"></div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-area flex-col">
+            <div class="about-text-area">
+                <h2>Contact Info</h2>
+                <p class="text">
+                    Email: jennifercao291953@gmail.com
+                    <br>
+                    Mobile: (951) --- ----
+                </p>
+            </div>
+            <div class="contact-form">
+                <h2>Direct Contact Form</h2>
+                <form autocomplete="on">
+                    <label>First Name:</label>
+                    <input type="text" id="first_name">
+                    <label>Last Name:</label>
+                    <input type="text" id="last_name">
+
+                    <br><br>
+
+                    <label>Email:</label>
+                    <input type="text" id="email" required>
+
+                    <br><br>
+
+                    <label>Message:</label>
+                    <input type="text" id="message" size="100">
+
+                    <br><br>
+
+                    <input type="submit">
+                </form>
+                <br>
+                <br>
+                <button type="button" onclick="scrollFunction()">Back to the top</button>
+                <script>
+                    function scrollFunction(){
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
